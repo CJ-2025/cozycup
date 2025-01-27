@@ -46,7 +46,7 @@ nav a:hover {
 .hero {
     text-align: center;
     padding: 150px 0;
-    background-image: url('hero-bg.jpg');
+    background-image: url('../img/coffee2.jpg');
     background-size: cover;
     color: white;
 }
