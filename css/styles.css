@@ -6,12 +6,12 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f2e0;
-    color: #4c3c32;
+    background-color: #4c3c32;
+    color: #f5f5f5;
 }
 
 header {
-    background-color: #fff;
+    background-color:#4c3c32;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
@@ -34,7 +34,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #4c3c32;
+    color: #fffcfb;
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -77,6 +77,7 @@ nav a:hover {
 .menu {
     padding: 100px 0;
     text-align: center;
+    background-color: #7e685b;
 }
 
 .menu h2 {
@@ -87,7 +88,7 @@ nav a:hover {
 .menu-list {
     display: flex;
     justify-content: center;
-    color: #171717;
+    color: #fffafa;
     align-items: center;
     list-style-type: none;
 }
@@ -114,7 +115,7 @@ nav a:hover {
 .about {
     padding: 100px 0;
     text-align: center;
-    background-color: #ede4d6;
+    background-color: #d0a081;
 }
 
 .about h2 {
@@ -126,6 +127,7 @@ nav a:hover {
     font-size: 18px;
     max-width: 800px;
     margin: 0 auto;
+    color: #f3f0f0;
 }
 
 .contact {
@@ -151,6 +153,7 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
 footer ul {
     list-style: none; 
     display: flex;
