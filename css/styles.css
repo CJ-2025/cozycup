@@ -195,3 +195,40 @@ footer ul li a:hover {
 .social-media a img:hover {
     transform: scale(1.2); /
 }
+
+.featured-products {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.featured-products h2 {
+    font-size: 2rem;
+    color: #f3f0f0;
+    margin-bottom: 20px;
+}
+
+.featured-products div {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.featured-products img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.featured-products img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.featured-products p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #fff8f8;
+}
