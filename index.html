@@ -26,6 +26,46 @@
         <h1>Sip, Relax, Repeat.</h1>
         <p>Discover Your Perfect Brew</p>
         <a href="#menu" class="cta-button">Explore Menu</a>
+        <div class="featured-products">
+            <h2>Featured Products</h2>
+            <div>
+                <img src="img/popular.png" alt="Popular Coffee">
+                <p>Signature Blend Coffee</p>
+            </div>
+            <div>
+                <img src="img/popular2.jpg" alt="Popular Pastry">
+                <p>Chocolate Croissant</p>
+            </div>
+        </div>        
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section contact-info">
+                    <h3>Contact Information</h3>
+                    <p>📍 Address: 123 Cozy Street, Coffee City</p>
+                    <p>📞 Phone: +123 456 789</p>
+                    <p>✉ Email: contact@cozycafe.com</p>
+                </div>
+        
+                <div class="footer-section social-media">
+                    <h3>Follow Us</h3>
+                    <a href="https://facebook.com" target="_blank"><img src="img\fb.png" alt="Facebook"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="img\insta.png" alt="Instagram"></a>
+                    <a href="https://twitter.com" target="_blank"><img src="img\twitter.png" alt="Twitter"></a>
+                </div>
+        
+                <div class="footer-section newsletter">
+                    <h3>Subscribe to Our Newsletter</h3>
+                    <form action="#" method="post" class="newsletter-form">
+                        <input type="email" name="email" placeholder="Enter your email" required>
+                        <button type="submit" class="subscribe-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <p class="footer-bottom">&copy; 2023 CozyCup Café. All rights reserved.</p>
+        </footer>
+        
+
+    </section>
     </section>
 
 <section id="menu" class="menu">
@@ -34,17 +74,17 @@
         <h2>Coffee Menu</h2>
         <ul class="menu-list">
             <li class="menu-item">
-                <img src="img/espresso.jpg" alt="Espresso" class="menu-img">
+                <img src="img/espresso.jpg" class="menu-img">
                 <p>Espresso</p>
                 <p>$2.50</p>
             </li>
             <li class="menu-item middle-item">
-                <img src="img/latte.jpg" alt="Latte" class="menu-img">
+                <img src="img/latte.jpg" class="menu-img">
                 <p>Latte</p>
                 <p>$3.50</p>
             </li>
             <li class="menu-item">
-                <img src="img/cappuccino.jpg" alt="Cappuccino" class="menu-img">
+                <img src="img/cappuccino.jpg" class="menu-img">
                 <p>Cappuccino</p>
                 <p>$3.00</p>
             </li>
@@ -68,6 +108,16 @@
                 <p>$2.75</p>
             </li>
         </ul>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </footer>
     </section>
     
     <section id="about" class="about">
@@ -87,13 +137,43 @@
     
     <section id="contact" class="contact">
         <h2>Contact Us</h2>
-        <p>Have questions or feedback? Reach out to us...</p>
-        <a href="https://www.facebook.com/">
-            <img src="img\fb.png" alt="fb" class="menu-img">
-        </a>
+
+        <div class="contact-info">
+            <p><strong>Address:</strong> 123 Coffee Lane, Brewtown</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> contact@cozycup.com</p>
+        </div>
+
+        <form class="contact-form">
+            <h3>Send Us a Message</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <input type="text" id="name" name="message" required>
+
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="map">
+            <h3>Our Location</h3>
+            <iframe src="https://www.google.com/maps/embed?..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
     </section>
     <footer>
         <p>&copy; 2023 CozyCup Café. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </footer>
 </body>
 </html>
